@@ -40,7 +40,16 @@ nav {
 }
 
 .nav-items:hover {
-    color: plum;
+     color: #fff;
+    text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px plum,
+        0 0 80px plum,
+        0 0 90px plum,
+        0 0 100px plum,
+        0 0 150px plum;
 }
 
 
