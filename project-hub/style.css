@@ -1,126 +1,37 @@
-* {
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Quicksand&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.brand {
+    font-size: xx-large;
+    border-bottom: 4px solid #c32aff;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Orbitron', sans-serif;
    
 }
 
-body {
-    background-image: url("Img/j-xpZGrE4sHbs-unsplash.jpg"); 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
 
-html {
-    scroll-behavior: smooth;
-}
 
-.sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+.temp-1 {
+     
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG/kajiwall2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 4rem;
+    width: 60%;
 }
 
 
-nav {
-   top: 0;
-   position: relative;
-    height: 12vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-items {
-    margin: 1rem;
-    color: hotpink;
-    font-size: x-large;
-}
-
-.nav-items:hover {
-     color: #fff;
-    text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px plum,
-        0 0 80px plum,
-        0 0 90px plum,
-        0 0 100px plum,
-        0 0 150px plum;
-}
 
 
-.main-opener {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 25vh;
-}
-
-.title {
-    font-size: 3rem;
-}
-
-.main-info {
-    font-size: larger;
-    margin: 1rem;
-}
-
-.css-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 3rem;
-}
-
-.css-title {
-    color: #fff;
-    font-size: 2rem;
-    text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #5271ff,
-        0 0 80px #5271ff,
-        0 0 90px #5271ff,
-        0 0 100px #5271ff,
-        0 0 150px #5271ff;
-}
 
 
-.js-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 3rem;
-}
 
-.js-title {
-    color: #fff;
-    font-size: 2rem;
-    text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #0fa,
-        0 0 80px #0fa,
-        0 0 90px #0fa,
-        0 0 100px #0fa,
-        0 0 150px #0fa;
-}
-
-.card {
-    margin: 1rem;
-    height: 200px;
-    width: 400px;
-    border: palevioletred solid 2px;
-    display: flex;
-    flex-direction: column;
-}
 
