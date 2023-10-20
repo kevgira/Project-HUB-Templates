@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Quicksand&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #121212;
+}
+
+.brand {
+    color: #0FFF50;
+    font-size: xx-large;
+    border-bottom: 4px solid #c32aff;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Orbitron', sans-serif;
+   display: flex;
+   justify-content: center;
+}
+
+.brand:hover {
+    color:#ccff15 ;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.nav-link {
+    margin: 1rem;
+    text-decoration: none;
+    color: #0FFF50;
+}
+
+.nav-link:hover {
+    color: #ccff15;
+    border-bottom: 2px solid #ccff15;
+}
+
+.project-def {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 4rem;
+    width: 60%;
+    height: 300px;
+}
+
+.project-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.project-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-project {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: medium;
+    color: black;
+    background-color: darkseagreen;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-project:hover {
+    cursor: pointer;
+    background-color: #c32aff;
+    color: azure;
+}
+
+.project-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-title {
+    font-size: 2.5rem;
+    color: salmon;
+    margin: 1rem;
+}
+
+.temp-1 {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG/kajiwall2.jpg");
+    
+}
+
+
+
+
+
